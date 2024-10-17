@@ -5,7 +5,7 @@ const CustomersGrid = () => {
     <div className="customers_grid_container">
       <div className="profiles_box">
         <div className="image">
-          <img src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_1-removebg-preview.png" />
+          <img alt="" src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_1-removebg-preview.png" />
         </div>
 
         <h1>Happy Customer</h1>
@@ -16,7 +16,7 @@ const CustomersGrid = () => {
       </div>
       <div className="profiles_box">
         <div className="image">
-          <img src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_8-removebg-preview.png" />
+          <img alt="" src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_8-removebg-preview.png" />
         </div>
         <h1>Happy Customer</h1>
         <p>
@@ -27,14 +27,14 @@ const CustomersGrid = () => {
       </div>
       <div className="profiles_box">
         <div className="image">
-          <img src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_7-removebg-preview.png" />
+          <img alt=""  src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_7-removebg-preview.png" />
         </div>
         <h1>Happy Customer</h1>
         <p>"Enjoy working with ProWorks. Feel valued as a customer.”</p>
       </div>
       <div className="profiles_box">
         <div className="image">
-          <img src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_9-removebg-preview.png" />
+          <img alt="" src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_9-removebg-preview.png" />
         </div>
         <h1>Happy Customer</h1>
         <p>
@@ -44,7 +44,7 @@ const CustomersGrid = () => {
       </div>
       <div className="profiles_box">
         <div className="image">
-          <img src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_2-removebg-preview.png" />
+          <img alt="" src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/Screenshot_2-removebg-preview.png" />
         </div>
         <h1>Happy Customer</h1>
         <p>

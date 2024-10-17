@@ -24,17 +24,29 @@ const AboutSliders = () => {
         modules={[Autoplay, Navigation, A11y, Pagination]}
       >
         <SwiperSlide>
-          <img src="https://proworksps.com/wp-content/uploads/2023/09/Jenniferarmsfolde.jpeg" />
+          <img
+            alt=""
+            src="https://proworksps.com/wp-content/uploads/2023/09/Jenniferarmsfolde.jpeg"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://proworksps.com/wp-content/uploads/2023/09/Resized_20230927_131353-768x432.jpeg" />
+          <img
+            alt=""
+            src="https://proworksps.com/wp-content/uploads/2023/09/Resized_20230927_131353-768x432.jpeg"
+          />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src="https://proworksps.com/wp-content/uploads/2023/09/Proworks2017banner.jpeg" />
+          <img
+            alt=""
+            src="https://proworksps.com/wp-content/uploads/2023/09/Proworks2017banner.jpeg"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://proworksps.com/wp-content/uploads/2023/09/Proworks2017banner.jpeg" />
+          <img
+            alt=""
+            src="https://proworksps.com/wp-content/uploads/2023/09/Proworks2017banner.jpeg"
+          />
         </SwiperSlide>
       </Swiper>
     </div>

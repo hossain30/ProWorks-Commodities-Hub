@@ -17,7 +17,7 @@ const SuppliersLast = () => {
           </p>
 
         </div>
-        <div className="suppliers_right"><img src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/10/Depositphotos_164674414_XL-globe-scaled.jpeg"  /></div>
+        <div className="suppliers_right"><img alt="" src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/10/Depositphotos_164674414_XL-globe-scaled.jpeg"  /></div>
       </div>
     </div>
   );

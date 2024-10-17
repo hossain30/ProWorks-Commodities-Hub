@@ -8,7 +8,7 @@ import Customers from "./Customers";
 import Home from "./Home";
 import Process from "./Process";
 import Suppliers from "./Suppliers";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {  Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (

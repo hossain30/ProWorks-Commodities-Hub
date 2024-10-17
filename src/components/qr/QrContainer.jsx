@@ -11,7 +11,7 @@ const QrContainer = () => {
           order consolidation.
         </p>
 
-          <img  src="https://proworksps.com/wp-content/uploads/2023/10/Depositphotos_95360052_XL-min-1024x683.jpeg" />
+          <img alt='' src="https://proworksps.com/wp-content/uploads/2023/10/Depositphotos_95360052_XL-min-1024x683.jpeg" />
           
 
       </div>
@@ -22,7 +22,7 @@ const QrContainer = () => {
           facility maintenance supplies/commodities.
         </p>
  
-          <img  src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/10/Depositphotos_90665386_XL-min-scaled.jpeg" />
+          <img alt='' src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/10/Depositphotos_90665386_XL-min-scaled.jpeg" />
 
       </div>
       <div className="qr_bottom_section">
@@ -32,7 +32,7 @@ const QrContainer = () => {
           and receives positive support of many industries.
         </p>
 
-          <img src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/10/Depositphotos_75088955_XL-min-scaled.jpeg" />
+          <img alt='proworksps' src="https://wb05nopapi.wpdns.site/wp-content/uploads/2023/10/Depositphotos_75088955_XL-min-scaled.jpeg" />
 
 
       </div>
