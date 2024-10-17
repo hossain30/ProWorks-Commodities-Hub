@@ -1,0 +1,10 @@
+.parallax_container {
+  background-image: url('https://wb05nopapi.wpdns.site/wp-content/uploads/2023/09/ProWorks-Capabilites-Statement.jpg');
+  height: 200px;
+  width: 100%;
+
+  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

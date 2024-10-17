@@ -1,0 +1,53 @@
+.Customers_slides_container {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("http://atomic.oxy.host/wp-content/uploads/sites/41/2018/05/pexels-photo-274977.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 30px;
+}
+.Customers_slides_container::before {
+content: '';
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, .7);
+}
+.Customers_slides_container > h1 {
+  font-size: 70px;
+color: white;
+z-index: 2;
+}
+.Customers_slides_container > p {
+  font-size: 20px;
+color: white;
+z-index: 2;
+}
+@media (max-width:870px) {
+    .Customers_slides_container > h1 {
+        font-size: 50px;
+    
+      }
+      .Customers_slides_container > p {
+        font-size: 16px;
+      
+      }
+}
+@media (max-width:550px) {
+    .Customers_slides_container > h1 {
+        font-size: 40px;
+    
+      }
+      .Customers_slides_container > p {
+        font-size: 14px;
+      
+      }
+}

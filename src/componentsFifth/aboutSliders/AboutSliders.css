@@ -1,0 +1,13 @@
+.about_sliders_container{
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 50px;
+
+}
+.about_sliders_container > img{
+object-fit: cover;
+object-position: center;
+
+
+}

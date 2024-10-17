@@ -1,0 +1,36 @@
+/* 5 */
+
+.peoples_section {
+  background-image: url("https://atomic.oxy.host/wp-content/uploads/sites/41/2018/03/group.png");
+  height: 70vh;
+  background-position: center;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  background-color: rgb(244, 247, 247);
+  text-align: center;
+  margin-top: 20px;
+}
+.peoples_section > p {
+  padding-top: 70px;
+  color: #2a445a;
+  font-size: 60px;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .peoples_section > p {
+    padding-top: 35px;
+    color: #2a445a;
+    font-size: 50px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 400px) {
+  .peoples_section > p {
+    padding-top: 35px;
+    color: #2a445a;
+    font-size: 40px;
+    font-weight: 500;
+  }
+}

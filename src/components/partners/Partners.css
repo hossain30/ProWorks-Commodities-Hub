@@ -1,0 +1,32 @@
+/* 6 */
+.partners_container {
+  text-align: center;
+}
+.partners_container > p {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+/* slider */
+.swiper {
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+
+
+
+@media (max-width: 786px) {
+  .partners_container > p {
+    font-size: 60px;
+    font-weight: 500;
+  }
+ 
+}
+
+@media (max-width: 420px) {
+  .partners_container > p {
+    font-size: 40px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,59 @@
+.process_banner {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-image: url("https://wb05nopapi.wpdns.site/wp-content/uploads/2023/10/Depositphotos_355588814_XL-min-scaled.jpeg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding-left: 10%;
+  position: relative;
+
+}
+.process_banner::after {
+  position: absolute;
+content: '';
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+.process_banner > p{
+font-size: 75px;
+color: white;
+z-index: 2;
+}
+@media (max-width:902px) {
+  .process_banner > p{
+    font-size: 60px;
+
+    }
+    .process_banner {
+
+      height: 200px;
+      padding-left: 10%;
+    }
+}
+@media (max-width:660px) {
+  .process_banner > p{
+    font-size: 40px;
+
+    }
+    .process_banner {
+
+      height: 150px;
+      padding-left: 10%;
+    }
+}
+@media (max-width:660px) {
+ 
+    .process_banner {
+      justify-content: center;
+padding-left: 0;
+    }
+}

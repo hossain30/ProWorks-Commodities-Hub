@@ -1,0 +1,120 @@
+.input_container {
+  /* height: 100vh; */
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.input_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.address {
+  font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+
+  gap: 10px;
+}
+
+
+.address > p {
+    padding: 0;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  gap: 10px;
+
+}
+
+
+/* input right */
+.input_right{
+
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input_box_bap{
+padding: 60px;
+background-color: rgb(213, 233, 250);
+height: 100%;
+width: 500px;
+}
+.input_box{
+
+background-color: white;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 40px;
+padding: 40px;
+}
+
+.input_cover{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.input_cover > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(225, 219, 219);
+    height: 40px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.input_box > button{
+    width: 100%;
+    background-color: #566d8f;
+    border: none;
+    outline: none;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width:1000px) {
+    .input_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+padding-top: 50px;
+    }
+}
+@media (max-width:570px) {
+    .input_box_bap{
+        padding: 40px;
+        background-color: rgb(213, 233, 250);
+        height: 100%;
+        width: 420px;
+        }
+    
+}
+@media (max-width:570px) {
+    .input_box_bap{
+        padding: 30px;
+        background-color: rgb(213, 233, 250);
+        height: 100%;
+        width: 320px;
+        }
+        .input_box{
+
+
+          
+            gap: 20px;
+            padding: 20px;
+            }
+            
+}

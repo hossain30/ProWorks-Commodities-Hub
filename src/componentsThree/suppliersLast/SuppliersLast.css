@@ -1,0 +1,45 @@
+.suppliers_last_container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff4f7;
+
+}
+.suppliers_last_container_ka_baccha{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.7;
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    gap: 50px;
+    padding: 50px;
+}
+.suppliers_left> h1{
+    font-size: 20px;
+    color: #566d8f;
+    font-weight: 500;
+    line-height: 1.1;
+ 
+    margin-bottom: 12px;
+}
+.suppliers_left > p{
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgb(101, 101, 101);
+}
+
+.suppliers_right{
+    object-fit: cover;
+    object-position: center;
+    
+}
+@media (max-width:1028px) {
+    .suppliers_right{
+    display: none;
+        
+    }
+}

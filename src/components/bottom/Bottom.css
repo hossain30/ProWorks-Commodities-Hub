@@ -1,0 +1,77 @@
+.bottom_container {
+  background-color: rgb(100, 88, 214);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.bottom_container .logo {
+  max-width: 150px;
+  height: 60px;
+}
+.bottom_container img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul.show {
+  list-style-type: none;
+  display: flex;
+  gap: 15px; /* Spacing between icons */
+  margin: 0;
+  padding: 0;
+}
+
+ul.show li {
+  font-size: 24px; /* Increased size for better visibility */
+  cursor: pointer; /* Pointer cursor for interaction */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+ul.show li:hover {
+  color: rgba(255, 255, 255, 0.8); /* Change color on hover */
+}
+
+.bottom_telephon_container {
+  display: flex;
+  flex-direction: column; /* Stack phone and email vertically */
+  gap: 10px; /* Space between phone and email */
+}
+
+.bottom_telephon_container a {
+  color: white; /* Text color */
+  text-decoration: none; /* No underline */
+  font-size: 16px; /* Font size */
+  background-color: rgb(100, 88, 214); /* Same color as background */
+  padding: 5px 10px; /* Padding for links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background change */
+}
+
+.bottom_telephon_container a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Change background on hover */
+}
+
+@media (max-width: 660px) {
+  .bottom_container .logo {
+    display: none;
+  }
+}
+@media (max-width: 460px) {
+  .bottom_container .logo {
+    display: none;
+  }
+  .bottom_container {
+    background-color: rgb(100, 88, 214);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,98 @@
+/* 7 */
+.qr_container {
+  background-color: #65bec2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 30px;
+  gap: 70px;
+}
+/*  SECTIONs */
+
+.qr_top_section > img,
+.qr_center_section > img,
+.qr_bottom_section > img {
+  width: 50%;
+  object-fit: cover;
+}
+
+/********************************** top section ***************************************/
+.qr_top_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.qr_top_section > p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+/******* ***********************center section *************************************/
+.qr_center_section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.qr_center_section > p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+/********************************* bottom section ***********************************/
+.qr_bottom_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.qr_bottom_section > p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+
+/************************ span ***********************************/
+
+.qr_top_section > p > span,
+.qr_center_section > p > span,
+.qr_bottom_section > p > span {
+  font-size: 25px;
+  color: rgb(82, 82, 232);
+}
+
+@media (max-width: 1000px) {
+  .qr_top_section,
+  .qr_center_section,
+  .qr_bottom_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+
+  .qr_top_section > img,
+  .qr_center_section > img,
+  .qr_bottom_section > img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .qr_top_section > p,
+  .qr_center_section > p,
+  .qr_bottom_section > p {
+    font-size: 16px;
+    
+  }
+  /************************ span ***********************************/
+
+  .qr_top_section > p > span,
+  .qr_center_section > p > span,
+  .qr_bottom_section > p > span {
+    font-size: 20px;
+    color: rgb(82, 82, 232);
+  }
+}
